@@ -1,0 +1,148 @@
+
+#firstname, #lastname, #subject{
+    width: 100%; 
+    padding: 12px;   
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+#firstname:focus ,#lastname:focus, #subject:focus
+
+{
+    color:#383737;
+}
+
+input[type=submit] {
+    background-color: ##CCCCCC;
+    color: #383737;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover 
+    background-color: #45a049;
+}
+
+.contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.navbar{
+  background-color: #fafafa;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+.home-attribute{padding-top:calc(6rem + 72px);padding-bottom:6rem}
+.home-attribute h1{font-size:3rem;line-height:3rem}
+.home-attribute h2{font-size:1.3rem;font-family:Lato}
+.bg-primary{background-color:#777777eb!important}
+#contact_detail, #fun_detail, #work_detail, #education_detail,  #about_console {
+    padding: 40px;
+    height: 620px;
+   
+    background: #383737;
+}
+
+
+#contact, #fun, #work,#about, #education{
+    
+    border-radius: 5px;
+    margin: 0 auto;
+    padding-top: 15px;
+    font-size: 30px;
+    background: #ccc;
+    height: 700px;
+    font-family: 'Monaco', 'Courier New';
+    text-align: left;
+    font-size: 13px;
+    color: #fafafa;
+}
+#summit
+{
+    border-radius: 5px;
+    margin: 0 auto;
+    padding-top: 15px;
+    font-size: 30px;
+    background: #383737;
+    height: 200px;
+    font-family: 'Monaco', 'Courier New';
+    text-align: left;
+    font-size: 13px;
+    color: #fafafa;
+}
+
+
+body {
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Karla', sans-serif;
+    line-height: 20px;
+    color: #333333;
+    background-color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+}
+
+#contact h1, #fun h1, #work h1 , #about h1, #education h1 
+{
+    border-bottom: solid 3px white;
+}
+span.answer {
+    color: #ccc;
+}
+
+img.icon {
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    float: left;
+    display: block;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: #fff;
+    opacity: 0.8;
+    z-index: 0;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    filter: gray;
+    -webkit-transition: all .4s ease;
+
+    
+}
+
+.panel-body
+{
+    background-color: #383737;
+}
+
+.hobby_image {
+    width: 100%;
+    height: auto;
+}
+
+.myfooter
+{
+    height: 75px !important;
+    background: #F5F5F5;
+    padding-top: 25px;
+    text-align :center;
+    text-transform: uppercase;
+}
+.myfooter a
+{
+    color:black;
+    padding:5px;
+}
